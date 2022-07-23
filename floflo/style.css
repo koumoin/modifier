@@ -1,0 +1,173 @@
+*{
+    padding: 00px;
+    margin: 00px;
+    box-sizing: border-box;
+  
+   
+}
+body{
+   background: linear-gradient(90deg, rgb(62, 62, 137) 25%, rgba(125,189,194,1) 100%);
+    font-family: sans-serif;
+
+}
+.contener{
+    width: 78%;
+    height: 620px;
+    background-color: #fff;
+    display: flex;
+    margin: 29px;
+    border-radius: 10px;
+    
+}
+.gauche{
+    height: 620px;
+    width: 350px;
+    background: #3e3f5f;
+    /* border-radius: 10px; */
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+}
+h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black; 
+    padding-top: 30px; 
+    padding-bottom: 5px;
+}
+.gauche_un span{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 20px;
+    color: black;
+    height: 45px;
+    width: 45px;
+   
+}
+.gauche_un{
+    border-bottom:1px solid white;
+    margin-top: 40px;
+    
+}
+h4{
+   color: white;
+
+}
+
+input{
+    width: 275px;
+    height: 35px;
+    /* outline: none; permet d'enlever les traie de l'input */
+    outline: none;
+    padding-left: 20px;
+}
+fieldset input{
+    border: none;
+
+}
+.droite {
+    margin-left:38px;
+   height: 320px;
+    width: 600px;
+    background-color: #fff;
+    position: relative;
+}
+
+/* .cinq {
+    margin-left: auto;
+    margin-right: auto;s
+    padding: 10px;
+    width: 350px;
+} */
+.texte p{
+  padding-left: 130px;
+  color: #969696 ;
+}
+span{
+    padding-left: 50px;  
+}
+
+.legende{
+    margin-left: 20px;
+}
+fieldset{
+    border-radius: 5px;
+    color: #969696;
+    
+}
+ table{
+    border-radius: 5px;
+
+}
+.bc{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.gauche .gauche_un span{
+    background-color: #fff ;
+     color: black;
+
+}
+
+.form .un table{
+    border:1px
+}
+.deux fieldset{
+    width: 610px;
+}
+.trois .bc{
+    width: 100px;
+}
+
+#bss{
+    padding-left:30px ;
+    
+}
+.cinq .bc{
+    width: 610px;
+}
+#last{
+    padding-left: 50px;
+}
+ .image input{
+    width: 120px;
+    border:none ;
+
+ }
+ .image{
+    height: 46px;
+    border: 1px solid #969696;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+    
+
+ }
+label{
+    color: #969696;
+}
+.cinq{
+    margin-top: 20px;
+}
+.cinq input{
+    height: 46px; 
+    border: #969696 1px solid;
+}
+
+form{
+    margin-right: 40px;
+}
+.cercle {
+	width: 45px;
+	height: 45px;
+	background:  #67a84e;
+    color: #d2f6c2;
+    border-radius: 50%;
+	margin: 22px 10px;	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+}
